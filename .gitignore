@@ -1,0 +1,37 @@
+# R-specific files
+.Rhistory
+.RData
+.Rprofile
+.Ruserdata
+*.Rproj
+.Rproj.user/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (sensitive/large)
+data/*.csv
+data/*.tsv
+data/*.txt
+data/*.xlsx
+!data/.gitkeep
+data/**/*.tsv
+data/**/*.csv
+data/**/*.gds
+
+# Output files
+*.png
+*.pdf
+*.html
+output/
+results/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
